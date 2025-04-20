@@ -11,6 +11,7 @@ public class helloController {
     @ResponseBody
     @RequestMapping("/hello")
     public String hello(){
+        System.out.println("Output in the console: Hello World");
         return "Hello World Spring Boot is up and running";
     }
 }
