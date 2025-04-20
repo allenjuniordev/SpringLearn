@@ -11,6 +11,6 @@ public class helloController {
     @ResponseBody
     @RequestMapping("/hello")
     public String hello(){
-        return "hello Spring Boot and Maven project";
+        return "Hello World Spring Boot is up and running";
     }
 }
